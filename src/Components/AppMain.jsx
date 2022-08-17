@@ -6,22 +6,20 @@ import Footer from './Footer/Footer';
 
 
 
-    
-
 
 function IndexApp() {
 
-  
+    
 
     return ( 
     
 
     <div>
-         
-              <Header/>             
-              <Parallax/>
-              <Contact/>
-              <Footer/>
+            <Header/>
+           <Parallax/>
+           <Contact/> 
+           <Footer/> 
+           
               
               
           

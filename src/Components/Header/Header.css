@@ -1,46 +1,113 @@
-.c-1 {
-    background-color: black;
-}
-
-.lightBulb {
-    width: 10%;
-    height: auto;
-    position: relative;
-    left: 5vw;
-    top: 20px;
-}
-
-.mainTitle {
-    font-size: 3em;
-    position: relative;
-    bottom: 130px;
-    left: 20vw;
-    display: block;
-    color: white;
-    font-weight: 900;
-}
-
-.titleLine {
-    color: white;
-    font-size: 1em;
-    position: relative;
-    bottom: 164px;
-    left: 20vw;
-    font-weight: 500;
-}
-
-.EmailAddress {
-    color: white;
-    position: relative;
-    bottom: 100px;
-    right: 6.9vw;
-    float: right;
-}
-
-.Telephone {
-    color: white;
-    position: relative;
-    bottom: 80px;
-    left: 2.0vw;
-    float: right;
-}
+    .c-1 {
+        background-color: black;
+    }
+    
+    .lightBulb {
+        width: 10%;
+        height: auto;
+        position: relative;
+        left: 5vw;
+        top: 20px;
+    }
+    
+    .mainTitle {
+        font-size: 3em;
+        position: relative;
+        bottom: 130px;
+        left: 20vw;
+        display: flex;
+        color: white;
+        font-weight: 900;
+    }
+    
+    .titleLine {
+        color: white;
+        font-size: 1em;
+        position: relative;
+        bottom: 164px;
+        left: 20vw;
+        font-weight: 500;
+    }
+    
+    .EmailAddress {
+        display: flex;
+        color: white;
+        position: relative;
+        bottom: 100px;
+        right: 7.0vw;
+        float: right;
+    }
+    
+    .Telephone {
+        color: white;
+        position: relative;
+        bottom: 80px;
+        left: 4vw;
+        float: right;
+    }
+    
+    @media screen and (max-width:1680px) {
+        .Telephone {
+            position: relative;
+            left: 7vw;
+        }
+    }
+    
+    @media screen and (max-width:1440px) {
+        .Telephone {
+            position: relative;
+            left: 10vw;
+        }
+    }
+    
+    @media screen and (max-width:1024px) {
+        .Telephone {
+            position: relative;
+            left: 12vw;
+        }
+        .lightBulb {
+            width: 10%;
+            height: auto;
+            position: relative;
+            top: 20px;
+        }
+        .mainTitle {
+            height: auto;
+            width: 30%;
+            font-size: 30px;
+            position: relative;
+            bottom: 100px;
+        }
+        .titleLine {
+            position: relative;
+            bottom: 120px;
+        }
+    }
+    
+    @media screen and (max-width:640px) {
+        .Telephone {
+            position: relative;
+            left: 35vw;
+        }
+        .lightBulb {
+            padding: 25px;
+            width: 18%;
+            height: auto;
+        }
+        .mainTitle {
+            white-space: nowrap;
+            position: relative;
+            left: 32vw;
+        }
+        .titleLine {
+            position: relative;
+            left: 45vw;
+        }
+    }
+    
+    @media screen and (max-width:375px) {
+        .Telephone {
+            position: relative;
+            left: 20vw;
+        }
+    }
