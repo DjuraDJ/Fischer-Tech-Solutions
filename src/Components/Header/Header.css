@@ -105,9 +105,4 @@
         }
     }
     
-    @media screen and (max-width:375px) {
-        .Telephone {
-            position: relative;
-            left: 20vw;
-        }
-    }
+    @media screen and (max-width:375px) {}
