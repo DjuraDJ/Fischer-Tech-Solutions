@@ -5,13 +5,10 @@ import {faFacebook, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
 
 
 function ContactInfo () {
-    return (<div>
-              <hr className="socialMedia"/>
-               <h1 className="call">Call or Text: </h1>
-               <p className="number">(226)979-4525</p>
-               <h1 className="email">Email: </h1>
-               <p className="Eaddress">FischerTechSolutions@gmail.com</p>
-    </div>  );
+    return (<div className="email">
+             
+              <spam className="bcolor"></spam>
+    </div>);
 }
 function SocialMedia() {
     return (<div>

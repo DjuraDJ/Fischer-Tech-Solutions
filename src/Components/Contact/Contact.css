@@ -72,7 +72,7 @@
     @media screen and (max-width:1024px) {
         .fade-in-section {
             opacity: 0;
-            transform: translateY(4vh);
+            transform: translateY(10vh);
         }
         .contactUsTitle {
             font-size: 4.5ch;

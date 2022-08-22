@@ -1,55 +1,57 @@
-.socialMedia {
-    background-color: rgba(5, 5, 255, 0.684);
+.bcolor {
+    display: flex;
+    position: relative;
+    top: 40px;
+    background-color: aqua;
     padding-bottom: 25%;
-}
-
-.call {
-    position: relative;
-    bottom: 130px;
-    right: 25vw;
-    text-align: center;
-    margin-top: -120px;
-}
-
-.number {
-    text-align: center;
-    position: relative;
-    bottom: 160px;
-    right: 17vw;
-    font-weight: 900;
-    font-size: 1.5em;
-}
-
-.email {
-    position: relative;
-    bottom: 90px;
-    text-align: center;
-    margin-top: -150px;
-}
-
-.Eaddress {
-    text-align: center;
-    position: relative;
-    bottom: 120px;
-    left: 11.4vw;
-    font-weight: 900;
-    font-size: 1.5em;
 }
 
 .facebook {
     position: relative;
-    bottom: 320px;
+    bottom: 200px;
     left: 40vw;
-    background-color: black
+    background-color: black;
 }
 
 .linkedin {
     position: relative;
-    bottom: 320px;
+    bottom: 200px;
     left: 45vw;
     background-color: black
 }
 
 a:-webkit-any-link {
     color: darkgray;
+}
+
+@media screen and (max-width:1440px) {
+    .bcolor {
+        padding-bottom: 22%;
+    }
+    .facebook,
+    .linkedin {
+        position: relative;
+        bottom: 150px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .bcolor {
+        padding-bottom: 20%;
+    }
+    .facebook,
+    .linkedin {
+        position: relative;
+        bottom: 90px;
+        width: 4%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .facebook,
+    .linkedin {
+        position: relative;
+        bottom: 28px;
+        width: 10%;
+    }
 }
