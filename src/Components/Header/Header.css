@@ -73,21 +73,26 @@
         }
         .mainTitle {
             height: auto;
-            width: 30%;
+            white-space: no-wrap;
+            width: 40%;
             font-size: 30px;
             position: relative;
             bottom: 100px;
         }
         .titleLine {
             position: relative;
-            bottom: 120px;
+            bottom: 111px;
         }
     }
     
     @media screen and (max-width:640px) {
+        .EmailAddress {
+            font-size: 10pt;
+        }
         .Telephone {
             position: relative;
-            left: 35vw;
+            left: 30vw;
+            font-size: 10pt;
         }
         .lightBulb {
             padding: 25px;
@@ -96,11 +101,20 @@
         }
         .mainTitle {
             white-space: nowrap;
+            font-size: 1.5em;
             position: relative;
             left: 32vw;
         }
         .titleLine {
             position: relative;
-            left: 45vw;
+            left: 40vw;
+        }
+    }
+    
+    @media screen and (max-width:375px) {
+        .Telephone {
+            position: relative;
+            top: -125px;
+            left: -60px;
         }
     }
