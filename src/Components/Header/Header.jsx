@@ -4,7 +4,7 @@ import lightBulb from '../../Images/lightBulb.jpg';
 
 const TopHeaderLogo = () =>{
 
-       const title = "Fischer Tech Solution";
+       const title = "Fischer Tech Solutions";
        const titleLine = "Friendly Tech Support";
        const emailAddress = "Email: FischerTechSolutions@gmail.com";
        const Telphone = "Telephone: (226)979-4525";
